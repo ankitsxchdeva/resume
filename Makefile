@@ -1,5 +1,6 @@
 SRC = $(wildcard *.tex)
 PDF = $(SRC:.tex=.pdf)
+TEX = xelatex
 
 .PHONY: all
 all: $(PDF)
@@ -17,4 +18,4 @@ view: all
 	open resume.pdf -a firefox
 
 %.pdf: %.tex
-	xelatex $<
+	$(TEX) $<
