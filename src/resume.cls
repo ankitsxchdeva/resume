@@ -2,6 +2,8 @@
 
 \LoadClass[10pt,letterpaper]{article} % Font size and paper type
 \usepackage[parfill]{parskip} % Remove paragraph indentation
+\def\sectionlineskip{\smallskip}
+\def\sectionskip{\smallskip}
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
 \usepackage{ifthen} % Required for ifthenelse statements
 \pagestyle{empty} % Suppress page numbers
