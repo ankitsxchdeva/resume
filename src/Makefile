@@ -1,6 +1,6 @@
 SRC = $(wildcard *.tex)
 PDF = $(SRC:.tex=.pdf)
-TEX = latex 
+TEX = xelatex 
 
 .PHONY: all
 all: $(PDF)
